@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:maroon;
+    background-image: url("images/800px-Värmland_vapen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 200px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    }
+header{
+    background: rgb(220, 223, 224);
+    margin: 20px; /* Space around all sides*/
+    padding: 20px; /* Space from sides to center */
+    border-radius: 5px;
+}
+
+section{
+    background: white;
+    color: grey; /* color of text */
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+li.burn{
+    margin: 2%;
+    font-size: 1.5em;
+    
+}
+a{
+    text-decoration: none;
+    background-color: grey;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+h3{
+    background-color: aqua;
+}
