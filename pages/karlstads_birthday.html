@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Karlstad</title>
+    <script src="../scripts/countdown.js" defer></script>
+    <style>
+        body{
+            background-image: url("../images/bg-karlstad.jpg");
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 5vh;
+            text-shadow: 1px 1px 1px white;
+            
+        }
+        .countdown{
+            font-size: 10vh;
+            display: flex;
+            justify-content: center;
+        }
+        .countdown .container{
+            margin: 0.5em;
+            margin-top: 1.5em;
+        }
+        .countdown span{
+            font-size: 5vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nedräkning till Karlstads Födelsedag</h1>
+    <div class="countdown">
+        <div id="days_container", class="container">
+            <div id="days"></div>
+            <span>Dygn</span>
+        </div>
+        <div id="hours_container", class="container">
+            <div id="hours"></div>
+            <span>Timmar</span>
+        </div>
+        <div id="minutes_container", class="container">
+            <div id="minutes"></div>
+            <span>Minuter</span>
+        </div>
+        <div id="seconds_container", class="container">
+            <div id="seconds"></div>
+            <span>Sekunder</span>
+        </div>
+    </div>
+</body>
+</html>
