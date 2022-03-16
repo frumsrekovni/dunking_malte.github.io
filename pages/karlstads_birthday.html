@@ -27,6 +27,16 @@
         .countdown span{
             font-size: 5vw;
         }
+        @keyframes blink {
+            0%      { opacity:1; }
+            100%     { opacity:0; }
+        }
+        h2{
+            color: red;
+        }
+        .blink{
+            animation: blink 250ms;
+        }        
         @media screen and (max-width: 600px) {
             h1{
                 font-size: 30px;
@@ -43,6 +53,7 @@
 </head>
 <body>
     <h1>Nedräkning till Karlstads Födelsedag</h1>
+    <h2 id="subtitle"></h2>
     <div class="countdown">
         <div id="days_container", class="container">
             <div id="days"></div>
